@@ -1,6 +1,6 @@
 let count = 0;
-function incrementBtn() {
-	count++
+document.querySelector("#incrementBtn").addEventListener("click",()=>{
+  count++
 	document.querySelector("#counter").innerText = count
 	alert(count-1)
-}
+})
